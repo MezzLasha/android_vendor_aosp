@@ -172,6 +172,10 @@ include vendor/aosp/config/ota.mk
 # GApps
 include vendor/gapps/config.mk
 
+# Custom Packages
+PRODUCT_PACKAGES += \
+    StitchImage
+
 # Pixel Style
 include vendor/pixelstyle/config.mk
 
