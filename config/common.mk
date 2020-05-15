@@ -178,6 +178,7 @@ PRODUCT_PACKAGES += \
     FaceUnlockService
 TARGET_FACE_UNLOCK_SUPPORTED := true
 endif
+endif
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.face.moto_unlock_service=$(TARGET_FACE_UNLOCK_SUPPORTED)
 endif
@@ -199,4 +200,3 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/config/permissions/com.android.screenshot.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.screenshot.xml
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
-endif
