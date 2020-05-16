@@ -1,7 +1,7 @@
 # Set all versions
 CUSTOM_BUILD_TYPE ?= UNOFFICIAL
 
-EXUI_BASE_VERSION = 1.1
+EXUI_BASE_VERSION = Lobster-1.0
 
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
 CUSTOM_DATE_MONTH := $(shell date -u +%m)
