@@ -47,6 +47,8 @@
     <!-- The color of the background of the MIUI brightness slider -->
     <color name="brightness_slider_background">@android:color/primary_dark_device_default_settings</color>
 
+    <color name="recents_dismiss_all_background_color">@android:color/primary_dark_device_default_settings</color>
+
     <!-- Notification guts -->
     <color name="notification_guts_info_button_color">@*android:color/accent_device_default_light</color>
     <color name="notification_guts_priority_button_content_color_selected">@*android:color/accent_device_default_light</color>
