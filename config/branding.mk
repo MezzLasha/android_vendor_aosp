@@ -1,7 +1,7 @@
 # Set all versions
 CUSTOM_BUILD_TYPE ?= UNOFFICIAL
 
-EXUI_BASE_VERSION = Progressive-1.0.2
+EXUI_BASE_VERSION = Magikarp-1.0.3
 
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
 CUSTOM_DATE_MONTH := $(shell date -u +%m)
