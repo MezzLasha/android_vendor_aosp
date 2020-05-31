@@ -160,7 +160,9 @@ PRODUCT_PACKAGES += \
     NavBarGesturalExtraWideBackNoPillOverlay
 
 # Lawnchair
+ifeq ($(LAWNCHAIR_OPTOUT),)
 include vendor/lawnchair/lawnchair.mk
+endif
 
 # Branding
 include vendor/aosp/config/branding.mk
