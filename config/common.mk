@@ -164,6 +164,11 @@ ifeq ($(LAWNCHAIR_OPTOUT),)
 include vendor/lawnchair/lawnchair.mk
 endif
 
+# OPLauncher
+ifeq ($(LAWNCHAIR_OPTOUT), true)
+include vendor/oplauncher/OPLauncher2.mk
+endif
+
 # Branding
 include vendor/aosp/config/branding.mk
 
