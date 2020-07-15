@@ -186,6 +186,13 @@ PRODUCT_PACKAGES += \
 # Pixel Style
 include vendor/pixelstyle/config.mk
 
+# PixelLiveWallpaper
+ifeq ($(TARGET_PIXEL_LWP),true)
+PRODUCT_PACKAGES += \
+    PixelLiveWallpaperPrebuilt
+endif
+
+
 # Customization
 include vendor/google-customization/config.mk
 
